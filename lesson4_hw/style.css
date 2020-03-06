@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #33cccc;
+}
+.main_box {
+  width: 1240px;
+  height: 1024px;
+  margin-left: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.head-logo {
+  width: 100%;
+  height: 41px;
+  margin: 50px auto;
+  position: relative;
+}
+.signup-button,
+.about,
+.help,
+.contact,
+.pricing,
+.login {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.signup-button {
+  width: 96px;
+  height: 35px;
+  right: 0;
+  background: #ffffff;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  color: #ff6845;
+  border: none;
+}
+
+.about {
+  margin-left: 730px;
+  color: #ffffff;
+}
+.help {
+  margin-left: 800px;
+  color: #ffffff;
+}
+.contact {
+  margin-left: 901px;
+  color: #ffffff;
+}
+
+.pricing {
+  margin-left: 982px;
+  color: #ffffff;
+}
+.login {
+  margin-left: 1077px;
+  color: #ffffff;
+}
+.content-block {
+  width: 1240px;
+  height: 833px;
+}
+.left-content-block {
+  width: 50%;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  display: inline-block;
+  position: relative;
+}
+.discover-text-block {
+  width: 577px;
+  height: 133px;
+  display: inline-block;
+  top: 290px;
+  position: absolute;
+}
+.discover {
+  top: 0;
+  display: inline-block;
+  position: absolute;
+}
+.discover-text {
+  bottom: 0;
+  display: inline-block;
+  position: absolute;
+}
+.right-content-block {
+  width: 50%;
+  height: 833px;
+  display: inline-block;
+  position: absolute;
+}
+.phone-block {
+  width: 561px;
+  height: 485px;
+  right: 0;
+  display: inline-block;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 2;
+}
+.phone-desing {
+  position: absolute;
+  width: 240px;
+  height: 485px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, #282828 50%, #282828 100%);
+  box-shadow: 0px 12px 36px rgba(0, 0, 0, 0.04),
+    0px 6px 25px rgba(0, 0, 0, 0.0001), inset 0px -5px 11px rgba(0, 0, 0, 0.05);
+  border-radius: 37.0118px;
+  z-index: 1;
+}
+.white-phone-design {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background: #f8f9f9;
+  border-radius: 37.0118px;
+  z-index: 2;
+}
+.phone-black-button {
+  position: absolute;
+  display: block;
+  width: 115px;
+  height: 35px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  background-color: #282828;
+  border-radius: 37.0118px;
+  border: none;
+  z-index: 3;
+}
+.respond-class,
+.vote-class,
+.earn-class {
+  display: inline-block;
+  position: absolute;
+  width: 240px;
+  height: 150px;
+  z-index: 3;
+}
+
+.respond-box-content,
+.vote-box-content,
+.earn-box-content {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+  z-index: 4;
+}
+
+.respond-box-img,
+.vote-box-img,
+.earn-box-img {
+  position: absolute;
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  z-index: 4;
+}
+.respond-class {
+  left: 679px;
+  top: 400px;
+}
+
+.respond-box {
+  position: absolute;
+  background: #f28964;
+  box-shadow: 0px 2px 8px rgba(123, 123, 123, 0.193501);
+  border-radius: 9.6px;
+}
+.respond-box-content {
+  top: 105px;
+  left: 74px;
+}
+.respond-box-img {
+  left: 83px;
+  top: 20px;
+}
+.vote-class {
+  left: 1000px;
+  top: 360px;
+}
+.vote-box {
+  position: absolute;
+  background: #4a90e2;
+  box-shadow: 0px 2px 8px rgba(123, 123, 123, 0.193501);
+  border-radius: 9.6px;
+}
+.vote-box-content {
+  top: 105px;
+  left: 96px;
+}
+.vote-box-img {
+  left: 83px;
+  top: 20px;
+}
+
+.earn-class {
+  left: 939px;
+  top: 545px;
+}
+.earn-box {
+  background: #c964f2;
+  box-shadow: 0px 2px 8px rgba(123, 123, 123, 0.193501);
+  border-radius: 9.6px;
+}
+.earn-box-content {
+  top: 105px;
+  left: 60px;
+}
+.earn-box-img {
+  left: 83px;
+  top: 20px;
+}
+
+.footer {
+  height: 107px;
+  position: relative;
+}
+.footer-bird {
+  position: absolute;
+  left: 161px;
+}
+.footer-g {
+  position: absolute;
+  left: 231px;
+}
+.footer-text {
+  position: absolute;
+  top: 39px;
+  left: 100px;
+  color: #ffffff;
+}

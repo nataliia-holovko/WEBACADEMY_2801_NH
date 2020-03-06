@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #308af3;
+}
+
+.modal {
+    margin: 200px auto;
+    background: #f5fafd;
+    width: 740px;
+    min-height: 540px;
+    border-radius: 6px;
+    overflow: hidden;
+    font-size: 0;
+    position: relative;
+}
+
+.head {
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    padding: 10px;
+    line-height: 10px;
+    user-select: none;
+}
+
+.btn-head {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 0;
+    border: none;
+    padding: 0;
+    margin-left: 6px;
+    user-select: none;
+    outline: none;
+}
+
+.btn-head:nth-child(1) {
+    background: #ff6058;
+    margin-left: 0;
+}
+
+.btn-head:nth-child(1):hover {
+    background: #ff0d00; 
+}
+
+.btn-head:nth-child(2) {
+    background: #ffc130;
+}
+
+.btn-head:nth-child(2):hover {
+    background: #ffe600;
+}
+
+.btn-head:nth-child(3) {
+    background: #28c940;
+}
+
+.btn-head:nth-child(3):hover {
+    background: #00ff26;
+}
+
+.content {
+    padding: 26px 40px 52px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 18px;
+    font-size: 22px;
+    color: #242f40;
+}
+
+.description {
+    font-size: 12px;
+    line-height: 15px;
+    color: #5b6b82;
+    width: 60%;
+    margin: 0 auto;    
+}
+
+.pricing {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+
+.pricing-btn {
+    width: 116px;
+    height: 38px;
+    border: none;
+    font-size: 10px;
+    background-color: #e4edf2;
+    color: #5b6b82;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.pricing-btn:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.pricing-btn:last-child {
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px; 
+
+}
+.pricing-btn:active {
+    background: #3ccf8e;
+    color: #fff;
+}
+.block {    
+    width: 165px;
+    height: 253px;   
+    margin-bottom: 0;
+    border: none; 
+    margin-top: 8%;   
+    background: #FFFFFF;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.1);  
+    display: inline-block;               
+}
+
+.block:hover {    
+    border: 2px solid #3CCF8E; 
+    position: absolute;  
+    transform: scale(1.1);   
+    position: relative;        
+}
+
+.free-text {    
+    height: 10px;    
+    margin-top: 40px;      
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #242F40;    
+}
+
+.dollar {
+    font-size: 16px;
+    line-height: 19px;
+    color: #242F40;
+}
+
+.number {
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    color: #242F40;
+}
+
+.mo {
+    font-size: 9px;
+    line-height: 11px;
+    color: #5B6B82;     
+}
+
+.check-mark-btn {
+    margin-left: 10px;
+}
+.benefits {
+    font-size: 8px;
+    line-height: 19px;
+    text-align: left;
+    color: #5B6B82;    
+    display: block;
+
+}
+.sign-up-button {
+    width: 99px;
+    height: 28px; 
+    margin-top: 15%;   
+    border: 1px solid #5B6B82;
+    box-sizing: border-box;
+    border-radius: 2.32479px;
+    font-size: 8px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #5B6B82;
+}
+
+.sign-up-button:active {
+    background: #3CCF8E;
+    border-radius: 2px;
+    font-size: 8px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.recommended {    
+    margin-top: 20px;
+    border: 0;
+    font-weight: bold;
+    font-size: 7px;
+    line-height: 9px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #FFB34B;
+    border-radius: 1.74359px;
+    position: absolute;
+    transform: translate(-50%, -50%);    
+}
+
+    
+    
+
+
+
+
+

@@ -1,0 +1,121 @@
+.main-section {
+  width: 100vw;
+  height: 648px;
+  background: #ffffff;
+}
+
+.main-section__content {
+  height: 100%;
+}
+
+.main-section__column {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.main-section__column-left {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.column-left__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 128px;
+}
+
+.column-left__header {
+  width: 100%;
+  height: 111px;
+  padding-top: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
+  width: 77px;
+}
+.header__find-label {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #242635;
+  padding-right: 20px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.header__search {
+  width: 60px;
+  height: 60px;
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+.column-left__text-block {
+  width: 450px;
+}
+
+.text-block_name {
+  margin-top: 122px;
+  font-weight: bold;
+  font-size: 4.3em;
+  line-height: 90px;
+  color: #242635;
+}
+.text-block_text {
+  line-height: 30px;
+  color: #64667a;
+}
+.text-block_text:first-child {
+  margin-top: 40px;
+}
+.text-block_text:last-child {
+  margin-top: 0;
+}
+.main-section__column-right {
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+.column-right_img {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.footer-section {
+  width: 100vw;
+  height: 162px;
+}
+.footer-section__footer-wrapper {
+  height: 100%;
+  display: flex;
+}
+.footer-wrapper__footer-left-column {
+  width: 50%;
+  background: #242635;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-left-column__content {
+  width: 443px;
+  margin-right: 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left-column_label {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.content_footer-img {
+  width: 60px;
+}

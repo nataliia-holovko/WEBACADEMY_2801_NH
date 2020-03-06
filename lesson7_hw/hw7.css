@@ -1,0 +1,133 @@
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.page-container {
+  width: 100%;
+  height: 100%;
+  max-width: 2200px;
+  margin: 0;
+}
+
+.page-container__header-name {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.page-container__content {
+  width: 100%;
+  height: 100vh;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.col {
+  width: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.block {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+}
+.col_one__block_one {
+  background-image: url(./assets/img/img1.png);
+}
+
+.col_one__block_two {
+  background-image: url(./assets/img/img2.png);
+}
+.col_two__block_one {
+  background-image: url(./assets/img/img3_1.png);
+}
+.col_two__block_two {
+  background-image: url(./assets/img/img4.png);
+}
+.col_two__block_three {
+  background-image: url(./assets/img/img5.png);
+}
+
+.col_three__block_one {
+  background-image: url(./assets/img/img6.png);
+}
+.col_three__block_two {
+  height: 66%;
+  background-image: url(./assets/img/img7.png);
+  background-position: center;
+}
+.col_four__block_one,
+.col_four__block_two {
+  height: 40%;
+  flex-grow: 0;
+}
+.col_four__block_one {
+  background-image: url(./assets/img/56292f_a0fce632986c4c489329c5693c3b126e.webp);
+}
+.col_four__block_two {
+  background-image: url(./assets/img/img9.png);
+}
+
+.footer {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  background: rgb(92, 90, 90);
+}
+
+/*MOBILE*/
+@media screen and (max-width: 900px) {
+  .page-container__content {
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+  .col {
+    width: 100%;
+    height: 100%;
+  }
+  .col_one {
+    height: 66%;
+  }
+
+  .col_one__block_one,
+  .col_one__block_two {
+    flex-grow: 1;
+  }
+
+  .col_four__block_one,
+  .col_four__block_two {
+    height: 33%;
+  }
+
+  .block {
+    margin-top: 10px;
+    background-size: contain;
+  }
+
+  .mobile-hidden {
+    height: 0%;
+    display: none;
+  }
+
+  .footer {    
+    display: block;
+    background: transparent;    
+  }
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calendar</title>
+    <style>
+        body {
+            background-color: #50e3c2;
+        }
+
+        .Calendar {
+            width: 343px;
+            height: 467px;
+            margin: 60px auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 10px 0 rgba(208, 208, 208, 0.5);
+            border: solid 1px #dfe4ef;
+            background-color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .FirstLine {
+            margin-top: 10px;
+
+        }
+
+        .FirstLineTable {
+            width: 340px
+        }
+
+        .MonthName {
+            width: 130.8px;
+            height: 22px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            color: #3a454e;
+        }
+
+        .Dropdown,
+        .Dropup {
+            width: 12px;
+            height: 9px;
+            background-color: var(--cloudy-blue);
+            text-align: center;
+            color: #7a8996;
+        }
+
+        .DayOfWeekP {
+            margin-top: 30px;
+        }
+
+        .DayOfWeekTable {
+            min-width: 310px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: 12px;
+            line-height: 0.83;
+            text-align: center;
+            color: #7f8fa4;
+        }
+
+        .DatesTable {
+            min-width: 310px;
+            min-height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: 12px;
+            line-height: 0.83;
+            text-align: center;
+            color: #2c3135;
+        }
+
+        .AllDates {
+            width: 40px;
+            height: 40px;
+        }
+
+        .Inactive {
+            width: 40px;
+            height: 40px;
+            background-color: #edf2f5;
+            color: rgb(145, 141, 141);
+        }
+
+        .Active {
+            width: 40px;
+            height: 40px;
+            background-color: #50e3c2;
+        }
+
+        .TableButton {
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+        }
+
+        .ImgButtonCancel {
+            width: 20px;
+        }
+
+        .CancelButton {
+            width: 75%;
+            font-size: 10px;
+            text-align: left;
+            color: #2c3135;
+        }
+
+        .SaveButton {
+            font-size: 10px;
+            text-align: right;
+            color: #2c3135;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Calendar">
+        <div class="FirstLine">
+            <table class="FirstLineTable">
+                <tr>
+                    <th class="Dropdown">
+                        <</th> <th class="MonthName">August 2017
+                    </th>
+                    <th class="Dropup">></th>
+                </tr>
+            </table>
+        </div>
+        <p class="DayOfWeekP">
+            <table class="DayOfWeekTable">
+                <tr>
+                    <th>SU</th>
+                    <th>M</th>
+                    <th>TU</th>
+                    <th>W</th>
+                    <th>TH</th>
+                    <th>F</th>
+                    <th>SA</th>
+                </tr>
+            </table>
+        </p>
+        <table class="DatesTable">
+            <tr class="AllDates">
+                <td class="Inactive">30</td>
+                <td class="Inactive">31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td class="Active">17</td>
+                <td>18</td>
+                <td>19</td>
+
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td class="Inactive">1</td>
+                <td class="Inactive">2</td>
+            </tr>
+
+        </table>
+        <div>
+            <table class="TableButton">
+                <tr>
+                    <td class="ImgButtonCancel"><img src="group.png" alt=""></td>
+                    <td class="CancelButton ">CANCEL</td>
+                    <td><img src="save.png" alt=""></td>
+                    <td class="SaveButton">SAVE</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

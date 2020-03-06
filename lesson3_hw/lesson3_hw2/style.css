@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #E5E5E5;
+}
+.main_box {
+    margin: 200px auto;
+    width: 350px;
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);        
+}
+.head {
+    width: 133px;
+    height: 25px;       
+    display: inline-flex;
+    margin-left: 108px;      
+    justify-content: center;                    
+    font-size: 18px;
+    line-height: 15px;       
+    text-align: center;
+    color: #000000;        
+}
+.head:hover {
+    color: #535353;
+}
+.steve-img {
+    width: 154px;
+    height: 154px;
+    display: block;    
+    margin-left: auto; 
+    margin-right: auto;  
+}
+.block-numbers-followers {
+    margin-left: 26px;    
+}    
+.numbers-followers {
+    width: 90px;
+    height: 35px;
+    font-size: 36px;
+    line-height: 42px;
+    display: inline-flex; 
+    flex-direction: row;  
+    justify-content: center;              
+    text-align: center;    
+    color: #535353;    
+    margin-top: 31px;   
+    margin-left: 6px; 
+    border: none;  
+    user-select: none;
+    outline: none;    
+}
+.numbers-followers:hover {
+    color: #022EA0;
+}
+.block-followers {
+    margin-left: 15px;
+}   
+.followers {
+    width: 64px;
+    height: 15px;
+    font-size: 14px;
+    line-height: 10px;
+    display: inline-flex; 
+    flex-direction: row;   
+    justify-content: center;
+    margin-left: 30px;
+    border: none;
+    align-items: center;
+    text-align: center; 
+    color: #535353;  
+}
+.followers:hover {
+    color: #022EA0;
+    font-weight: bold;
+}
+.block-last-buttons {
+    margin-left: 48px;
+}
+.last-buttons {
+    width: 115px;
+    height: 33px;   
+    margin-top: 32px;    
+    text-transform: uppercase;  
+    font-size: 14px;
+    line-height: 16px;    
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;      
+}
+.last-buttons:first-child {
+    background: #2ADD32;
+    border-radius: 3px;  
+    margin-right: 23px;  
+}
+.last-buttons:first-child:hover {
+    background: #03831F;
+    border: 1px solid #03831F;
+    box-sizing: border-box;
+}
+.last-buttons:last-child {
+    background: #2A67DD;
+    border-radius: 3px;
+}
+.last-buttons:last-child:hover {
+    background: #0039A8;
+    border: 1px solid #022EA0;
+    box-sizing: border-box;
+}

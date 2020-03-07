@@ -1,4 +1,4 @@
-@import './mixins';
+@import "./mixins";
 
 $spacing: 8px;
 
@@ -46,27 +46,42 @@ $spacing: 8px;
     height: 100%;
   }
 }
+.explore-block {
+  padding: $spacing;
+  &__item {
+    padding: $spacing;
+  }
+}
 .explore-block__explore-content {
- width: 100%;
- margin-top: 40px;
- margin-bottom: 40px;
-
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .explore {
   display: flex;
   flex-direction: row;
-  margin: $spacing;          
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-    color: rgb(34, 34, 34);    
-    max-height: 126px;    
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.02);    
-    border-radius: 12px;
+  margin: $spacing;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  color: rgb(34, 34, 34);
+  max-height: 126px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  min-height: 84px;
+  align-items: center;
 
   &__content {
-    flex-wrap: nowrap;    
+    flex-wrap: nowrap;
   }
-
- 
+  &__image {
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  &__text {
+    display: flex;
+    padding: 0 16px 0 24px;
+    font-weight: 600;
+    font-size: 16px;
+  }
 }

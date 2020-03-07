@@ -50,6 +50,13 @@
   height: 100%;
 }
 
+.explore-block {
+  padding: 8px;
+}
+.explore-block__item {
+  padding: 8px;
+}
+
 .explore-block__explore-content {
   width: 100%;
   margin-top: 40px;
@@ -67,9 +74,21 @@
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.02);
   border-radius: 12px;
+  min-height: 84px;
+  align-items: center;
 }
 .explore__content {
   flex-wrap: nowrap;
+}
+.explore__image {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.explore__text {
+  display: flex;
+  padding: 0 16px 0 24px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=content.css.map */

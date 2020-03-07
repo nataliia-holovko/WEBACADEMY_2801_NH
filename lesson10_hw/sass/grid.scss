@@ -10,10 +10,9 @@ $screen-xs: 576px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  border: 2px solid blue;
 }
 
-[class*='col-'] {
+[class*="col-"] {
 }
 
 @for $index from 1 to $cel-count + 1 {

@@ -64,6 +64,7 @@
 }
 
 .explore {
+  position: relative;
   display: flex;
   flex-direction: row;
   margin: 8px;
@@ -75,20 +76,121 @@
   border-color: rgba(0, 0, 0, 0.02);
   border-radius: 12px;
   min-height: 84px;
-  align-items: center;
+  text-align: center;
 }
 .explore__content {
   flex-wrap: nowrap;
+  align-items: center;
+}
+.explore__image-block {
+  width: 33%;
+  overflow: hidden;
+  border-radius: 10px 0 0 10px;
 }
 .explore__image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
-  border-radius: 10px;
 }
 .explore__text {
   display: flex;
   padding: 0 16px 0 24px;
   font-weight: 600;
   font-size: 16px;
+  align-items: center;
+}
+
+.image-stays {
+  background-image: url(../assets/images/stays_img_big.png);
+}
+
+.image-experienses {
+  background-image: url(../assets/images/experience_img_big.png);
+}
+
+.image-advantures {
+  background-image: url(../assets/images/advantages_img_big.png);
+}
+
+@media (max-width: 992px) {
+  .explore {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    min-height: 224px;
+    padding-right: 8px;
+  }
+  .explore__image-block {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px 10px 0 0;
+  }
+  .explore__text {
+    height: 20%;
+    align-items: center;
+  }
+
+  .col-md-offset {
+    display: none;
+  }
+}
+.introducing,
+.promotions {
+  margin-bottom: 40px;
+}
+.introducing__link-more,
+.promotions__link-more {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.introducing__link-more_text,
+.promotions__link-more_text {
+  cursor: pointer;
+  font-weight: 600;
+  color: #222222;
+  text-decoration: underline;
+}
+
+.introduce {
+  display: flex;
+  flex-direction: row;
+}
+.introduce__content {
+  margin-top: 8px;
+}
+.introduce__country {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.introduce__title {
+  font-size: 12px;
+  line-height: 20px;
+}
+.introduce__rating {
+  font-size: 11px;
+}
+
+.page_headers__text {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .col-sm-offset {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .col-xs-offset {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=content.css.map */

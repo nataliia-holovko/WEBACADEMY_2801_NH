@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./css/base.css" />
   <link rel="stylesheet" href="./css/header.css" />
   <link rel="stylesheet" href="./css/content.css" />
+  <link rel="stylesheet" href="./css/white_block.css" />
 </head>
 
 <body>
@@ -32,11 +33,67 @@
         <a href="" class="nav__link nav__link_help">Help</a>
       </nav>
     </header>
-  </section>
-  <main class="page-main">
     <section class="white-block">
-      <div class="white-block__content"></div>
+      <div class="white-block__wb-content">
+        <div class="wb-content__wb-main-box wb-main-box">
+          <h1 class="wb-main-box__header">Book unique places to stay and things to do.</h1>
+          <div class="wb-main-box__wb-btn-box">
+            <form action="" class="wb-main-box__wb-forms">
+              <div class="wb-main-box__form-where wb-form">
+                <label for="form-where">
+                  <div class="form-where__label wb-form__label">where</div>
+                  <input 
+                  class="form-where__input wb-form__input"
+                  placeholder="Anywhere">                                     
+                </label>
+              </div>
+              <div class="wb-main-box__form-check wb-form">
+                <div class="form-check__check-block">
+                  <label for="form-where">
+                    <div class="form-where__label wb-form__label">check-in</div>
+                    <input 
+                    class="form-where__input wb-form__input"
+                    placeholder="dd/mm/yyyy">                                     
+                  </label>
+
+                </div>
+                <div class="form-check__check-block">
+                  <label for="form-where">
+                    <div class="form-where__label wb-form__label">checkout</div>
+                    <input 
+                    class="form-where__input wb-form__input"
+                    placeholder="dd/mm/yyyy">                                     
+                  </label>
+
+                </div>
+              </div>
+              <div class="wb-main-box__form-guest wb-form">
+                <label for="form-where">
+                  <div class="form-where__label wb-form__label">guests</div>
+                  <input 
+                  class="form-where__input wb-form__input"
+                  placeholder="Guests">                                     
+                </label>
+                
+              </div>
+              <div class="wb-main-box__form-submit">
+                <div class="form-submit__content form-submit">
+                  <button class="form-submit__red-btn">
+                    <span class="form-submit__red-text">Search</span>
+                  </button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
     </section>
+  </section>  
+  <main class="page-main">    
     <section class="global-content explore-block">
       <div class="explore-block__explore-content">
       <div class="explore__header main-headers">

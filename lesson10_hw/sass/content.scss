@@ -189,6 +189,9 @@ $spacing: 8px;
     line-height: 12px;
     font-weight: 400;
   }
+  .white-block {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .col-xs-offset {

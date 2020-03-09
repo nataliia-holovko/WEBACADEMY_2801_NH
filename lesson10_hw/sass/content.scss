@@ -176,6 +176,12 @@ $spacing: 8px;
   .col-sm-offset {
     display: none;
   }
+  .page_headers {
+    font-size: 14px;
+  }
+  .page_headers__text {
+    font-size: 12px;
+  }
 }
 @media (max-width: 576px) {
   .col-xs-offset {

@@ -182,6 +182,13 @@ $spacing: 8px;
   .page_headers__text {
     font-size: 12px;
   }
+  .introduce__country,
+  .introduce__title,
+  .introduce__rating {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+  }
 }
 @media (max-width: 576px) {
   .col-xs-offset {

@@ -135,10 +135,6 @@
   .col-md-offset {
     display: none;
   }
-
-  .white-block {
-    display: none;
-  }
 }
 .introducing,
 .promotions {
@@ -210,10 +206,23 @@
   .white-block {
     display: none;
   }
+
+  .white-header__content {
+    margin-bottom: 100px;
+  }
 }
 @media (max-width: 576px) {
   .col-xs-offset {
     display: none;
+  }
+
+  .container {
+    min-height: 220px;
+  }
+
+  .white-header__header-text {
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 

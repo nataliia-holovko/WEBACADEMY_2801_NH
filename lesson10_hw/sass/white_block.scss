@@ -8,9 +8,6 @@
   padding-left: 80px;
   max-width: 1760px;
   background-color: transparent;
-  display: flex;
-  width: 50%;
-  justify-content: center;
 }
 .wb-main-box__wb-forms {
   margin-block-end: 0;
@@ -91,5 +88,23 @@
     background: #ff5a5f;
     border-color: transparent;
     color: #ffffff;
+  }
+}
+.white-header {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+
+  &__content {
+    z-index: 5;
+  }
+  &__header-text {
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+    padding-top: 6px;
+    padding-bottom: 6px;
   }
 }
